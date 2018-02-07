@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lesson03_Android_Layout_2</string>
+    <string name="label_first_name">First Name</string>
+    <string name="label_last_name">Last Name</string>
+    <string name="label_address">Address</string>
+    <string name="label_city">City</string>
+    <string name="button_submit">Submit</string>
+</resources>
