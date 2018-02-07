@@ -29,8 +29,8 @@
         android:layout_alignParentTop="true"
         android:layout_marginLeft="@dimen/item_spacing"
         android:layout_marginStart="@dimen/item_spacing"
-        android:layout_toRightOf="@+id/lblFirstName"
         android:layout_toEndOf="@+id/lblFirstName"
+        android:layout_toRightOf="@+id/lblFirstName"
         android:ems="10"
         android:inputType="textPersonName"
         tools:text="First Name" />
@@ -40,8 +40,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/txtFirstName"
-        android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:layout_alignStart="@+id/txtFirstName"
         android:layout_below="@+id/txtFirstName"
         android:layout_marginTop="19dp"
@@ -54,8 +54,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/txtLastName"
-        android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:layout_alignStart="@+id/txtLastName"
         android:layout_below="@+id/txtLastName"
         android:layout_marginTop="15dp"
@@ -102,6 +102,7 @@
         android:layout_alignLeft="@id/txtFirstName"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/txtFirstName"
         android:layout_below="@id/txtAddress" />
 
     <Button
